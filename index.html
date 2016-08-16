@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bayer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-2.1.4"></script>
+	<script type="text/javascript" src="calculos.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Iconos Library-->
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="header">
+		<h1 id="title">TEOREMA DE BAYES</h1>
+	</div>
+	<div id="interface-top">
+		<div id="numFila">
+			<h2 id="icon"></h2>
+			<h2 id="num">A)</h2>
+			<h2 id="num">B)</h2>
+			<h2 id="num">C)</h2>
+		</div>
+		<div id="columna">
+			<h2 id="icon">%</h2>
+			<input id="A"></input>
+			<input id="B"></input>
+			<input id="C"></input>
+		</div>
+		<div id="columna">
+			<h2 id="icon">!</h2>
+			<input id="AA"></input>
+			<input id="BB"></input>
+			<input id="CC"></input>
+		</div>
+		<div id="formulario">
+			<h2 id="formu">Formula:</h1>
+			<h2 id="formula">P(M|H) = &nbsp;&nbsp;</h2>
+			<h2 id="formula"><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								P(M) * P(H|M)
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</u><br>P(F) * P(H|F) + P(M) * P(H|M) + P(O) * P(O|H)</h2>
+		</div>
+		<br>
+		<button id="ok">OK</button>
+	</div>
+	<div id="resultado">
+			<h2 id="text"><i>Resultado:</i></h2>
+			<h2 id="num">A)</h2>
+			<input id="resultA" disabled></input>
+			<h2 id="num">B)</h2>
+			<input id="resultB" disabled></input>
+			<h2 id="num">C)</h2>
+			<input id="resultC" disabled></input>
+	</div>
+</body>
+</html>

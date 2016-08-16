@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+@font-face{
+	font-family: RobotoBlack;
+	src: url(fonts/RobotoBlack.ttf);
+}
+@font-face{
+	font-family: RobotoLight;
+	src: url(fonts/RobotoLight.ttf);
+}
+@font-face{
+	font-family: RobotoRegular;
+	src: url(fonts/RobotoRegular.ttf);
+}
+#header{
+	width: 100%;
+	height: 180px;
+	background-color: #3c9b5a;
+	text-align: center;	
+}
+#interface-top div{
+
+	display: inline-block;
+}
+h2{
+	font-family: RobotoRegular;
+}
+input{
+	width: 250px;
+	height: 45px;
+	background-color: rgba(60, 155, 90, 0.5);
+	border-style: none;
+	border-radius: 5px;
+	border: green 2px solid;
+	text-align: center;
+	font-family: RobotoLight;
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+button{
+	width: 250px;
+	height: 45px;
+	background-color: rgb(60, 155, 90);
+	border-style: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: RobotoBlack;
+	font-size: 23px;
+	color: white;
+	box-shadow: 1px 1px 0px white, 6px 6px 0px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	margin-left: 220px;
+}
+button:active{
+	background-color: rgb(44, 109, 66);
+	box-shadow: 1px 1px 0px white, 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+#title{
+	padding: 40px 0 0 0;
+	margin: 0;
+	font-family: RobotoBlack;
+	color: white;
+	text-shadow: 5px 5px 0px #3c9b5a, 10px 10px 0px rgba(0, 0, 0, 0.5);
+	font-size: 70px;
+}
+#numFila{
+	width: 50px;
+	margin-left: 30px;
+}
+#num{
+	font-size: 35px;
+	margin: 0 0 20px 0;
+	width: 50px;
+	height: 45px;
+	text-align: center;
+}
+#columna{
+	width: 250px;
+	margin: 0 10px 0 10px;
+}
+#icon{
+	font-size: 40px;
+	margin: 0;
+	padding: 20px 0 5px 0;
+	text-align: center;
+}
+#formula{
+	text-align: center;
+	font-style: italic;
+	font-family: RobotoLight;
+	display: inline-block;
+	padding-left: 20px;
+
+}
+#formulario{
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+#formu{
+	font-size: 40px;
+	margin: 0;
+	padding: 20px 0 5px 130px;
+	text-align: center;
+}
+#resultado{
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+#resultado *{
+	display: inline-block;
+}
+#text{
+	font-size: 35px;
+	margin: 0 40px 20px 40px;
+	height: 45px;
+	text-align: center;
+}
